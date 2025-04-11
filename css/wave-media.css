@@ -1,0 +1,872 @@
+@media (max-width: 1140px) {
+
+  /* Общие */
+
+  .container {
+    max-width: 854px;
+  }
+
+  /* Хэдер */
+
+  .header {
+    position: relative;
+  }
+
+  .header__content {
+    flex-wrap: wrap;
+    padding-top: 29px;
+    padding-bottom: 97px;
+    min-height: 80px;
+  }
+
+  .header__logo-img {
+    width: 112px;
+    height: 14px;
+  }
+
+  .header__nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #E6E8EC;
+  }
+
+  .header__list {
+    gap: 85px;
+    padding: 21px 0;
+  }
+
+  /* Секция hero */
+
+  .hero__content {
+    padding-top: 86px;
+    padding-right: 312px;
+    padding-bottom: 114px;
+  }
+
+  .hero__content::after {
+    top: auto;
+    right: -1px;
+    bottom: 91px;
+    width: 262px;
+    height: 278px;
+    background: url('../img/hero_microphone-1024.png') no-repeat bottom;
+  }
+
+  .hero__heading {
+    margin-bottom: 14px;
+  }
+
+  .hero__par {
+    margin-bottom: 46px;
+  }
+
+  /* Секция плейлисты */
+
+  .playlist {
+    --columns: 3;
+  }
+
+  .playlist__content {
+    flex-wrap: wrap;
+  }
+
+  .playlist__left-block {
+    flex-basis: auto;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .playlist__item-content {
+    flex-direction: row;
+  }
+
+  .playlist__img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .playlist__img-flag {
+    right: auto;
+  }
+
+  .playlist__down-content {
+    justify-content: center;
+    padding: 0 8px;
+    height: auto;
+  }
+
+  .playlist__band-name {
+    margin-bottom: 4px;
+  }
+
+  /* Секция реклама */
+
+  .fixed-padding {
+    padding-left: 15px;
+  }
+
+  .product {
+    padding-bottom: 95px;
+  }
+
+  .product__left-side {
+    padding-top: 121px;
+  }
+
+  .product__img-good {
+    width: 397px;
+    height: 349px;
+  }
+
+  .product__img-znak {
+    top: 18%;
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Секция О нас */
+
+  .about-us__top-block {
+    padding-right: 270px;
+    background: url('../img/about-us_svg-star.svg') no-repeat 100%;
+  }
+
+  .form__mail-error {
+    right: 318px;
+  }
+}
+
+@media (max-width: 854px) {
+
+  /* Общие */
+
+  .container {
+    max-width: 570px;
+  }
+
+  /* Секция Хэдер */
+
+  .header__list {
+    gap: 34px;
+    font-size: 16px;
+  }
+
+  /* Секция hero */
+
+  .hero__content {
+    padding-top: 82px;
+    padding-right: 0;
+  }
+
+  .hero__content::after {
+    display: none;
+  }
+
+  /* Секция подкасты */
+
+  .podcasts__item {
+    width: 100%;
+  }
+
+  /* Секция передачи */
+
+  .shows {
+    padding-bottom: 155px;
+  }
+
+  .shows::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #E6E8EC;
+  }
+
+  .shows__content {
+    flex-direction: column;
+  }
+
+  .shows__heading {
+    margin-bottom: 109px;
+  }
+
+  .shows__archive {
+    top: 103%;
+    bottom: auto;
+    left: 18%;
+    padding-top: 0;
+    padding-left: 91px;
+    background: url('../img/shows__microphone-768.png') no-repeat;
+  }
+
+  .shows__archive-link {
+    margin-bottom: 9px;
+  }
+
+  .shows__list {
+    margin-bottom: 61px;
+  }
+
+  /* Секция гости */
+
+  .guests {
+    padding-bottom: 92px;
+  }
+
+  .guests__par-top {
+    padding-right: 0;
+  }
+
+  .guests__item {
+    flex-direction: column;
+  }
+
+  .guests__par {
+    margin-bottom: 30px;
+    max-width: 362px;
+  }
+
+  /* Секция плейлисты */
+
+  .playlist {
+    padding-bottom: 112px;
+    --columns: 2;
+  }
+
+  /* Секция реклама */
+
+  .product {
+    padding-top: 55px;
+  }
+
+  .product__content {
+    flex-direction: column;
+  }
+
+  .product__left-side {
+    margin-bottom: 46px;
+    padding-top: 0;
+  }
+
+  .product__img-good {
+    width: 540px;
+    height: 474px;
+  }
+
+  .product__img-znak {
+    top: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .product__par-slogan {
+    max-width: 441px;
+  }
+
+  .product__par-slogan::after {
+    width: 539px;
+    background: url('../img/product_wave-line-768.svg') no-repeat;
+  }
+
+  /* Секция О нас */
+
+  .about-us {
+    padding-bottom: 96px;
+    background-image: url('../img/about-us_svg-spiral-768.svg'), url('../img/about-us_svg-star-768.svg');
+    background-repeat: no-repeat;
+    background-position: 0 25.4%, 82.5% 25.4%;
+  }
+
+  .about-us__top-block {
+    padding-bottom: 141px;
+    padding-right: 0;
+    background: none;
+  }
+
+  .form__name,
+  .form__mail {
+    width: 100%;
+  }
+
+  .form__mail-error {
+    top: 291px;
+    right: 0;
+    left: 33px;
+  }
+
+  /* Секция футер */
+
+  .footer {
+    background-position: 50% 92.5%;
+  }
+
+  .footer__content {
+    justify-content: center;
+  }
+
+  .footer__left {
+    margin-bottom: 76px;
+  }
+
+  .footer__social-list {
+    padding-left: 5px;
+    max-width: 155px;
+  }
+
+  .social-list__svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer__right {
+    margin-bottom: 70px;
+  }
+
+  .footer__list {
+    gap: 170px;
+    width: 539px;
+  }
+
+  .footer__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  /* Общие */
+
+  .container {
+    max-width: 398px;
+  }
+
+  .heading-2 {
+    font-size: 36px;
+  }
+
+  /* Секция хэдер */
+
+  .header__content {
+    padding-top: 20px;
+    padding-bottom: 67px;
+  }
+
+  .header__nav {
+    top: 54px;
+  }
+
+  .header__list {
+    gap: 24px;
+    padding: 17px 0 17px;
+    width: 367px;
+    overflow-x: scroll;
+  }
+
+  .header__nav-link {
+    padding: 0;
+  }
+
+  /* Секция хиро */
+
+  .hero__heading {
+    font-size: 48px;
+  }
+
+  /* Секция передачи */
+
+  .shows__heading {
+    margin-bottom: 30px;
+  }
+
+  .shows__list {
+    justify-content: start;
+  }
+
+  .shows__img {
+    max-width: 169px;
+  }
+
+  .shows__down-content {
+    max-width: 169px;
+    width: auto;
+  }
+
+  .shows__title {
+    font-size: 16px;
+  }
+
+  .shows__archive {
+    left: 0;
+  }
+
+  /* Секция плейлисты */
+
+  .playlist__item-content {
+    flex-direction: column;
+  }
+
+  .playlist__img {
+    width: auto;
+    height: auto;
+  }
+
+  .playlist__img-flag {
+    right: 0;
+  }
+
+  .playlist__down-content {
+    padding: 10px;
+    height: 100%;
+  }
+
+  .playlist__link {
+    padding: 181px 0 20px 6px;
+  }
+
+  /* Секция реклама */
+
+  .product__img-good {
+    width: 368px;
+    height: 349px;
+  }
+
+  .product__img-znak {
+    width: 100px;
+    height: 100px;
+  }
+
+  .product__par-slogan {
+    font-size: 40px;
+  }
+
+  .product__par-slogan::after {
+    width: 100%;
+  }
+
+  /* Секция О нас  */
+
+  .about-us {
+    background-image: none;
+  }
+
+  .about-us__top-block {
+    padding-bottom: 0;
+  }
+
+  .about-us__img-photo {
+    max-width: 168px;
+  }
+
+  .about-us__name {
+    font-size: 18px;
+  }
+
+  /* Секция футер */
+
+  .footer__list {
+    gap: 30px 73px;
+    width: 365px;
+  }
+}
+
+@media (max-width: 426px) {
+
+  /* Общие */
+
+  .container {
+    max-width: 286px;
+  }
+
+  .heading-2 {
+    font-size: 24px;
+  }
+
+  /* Секция хэдер */
+
+  .header__content {
+    padding-top: 15px;
+  }
+
+  .header__logo-link {
+    margin-right: 0;
+  }
+
+  .header__logo-img {
+    width: 87px;
+    height: 11px;
+  }
+
+  .header__list {
+    width: 263px;
+  }
+
+  .header__nav-link {
+    padding: 0 2px;
+  }
+
+  /* Секция Хиро */
+
+  .hero__content {
+    padding-top: 40px;
+    padding-bottom: 57px;
+  }
+
+  .hero__heading {
+    margin-bottom: 7px;
+    font-size: 32px;
+  }
+
+  .hero__heading-italic {
+    padding-left: 7px;
+  }
+
+  .hero__par {
+    margin-bottom: 37px;
+    font-size: 14px;
+  }
+
+  .btn-violet-style {
+    padding: 15px 44px;
+    font-size: 16px;
+  }
+
+  /* Секция подкасты */
+
+  .podcasts {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+
+  .podcasts__heading {
+    margin-bottom: 19px;
+  }
+
+  .podcasts__item-content {
+    flex-direction: column;
+  }
+
+  .podcasts__right-content {
+    padding: 30px 16px 31px;
+  }
+
+  .podcasts__title {
+    font-size: 16px;
+  }
+
+  .podcasts__speaker {
+    font-size: 12px;
+  }
+
+  .podcasts__date {
+    top: -1%;
+    bottom: auto;
+    padding: 5px 6px 3px;
+  }
+
+  /* Секция передачи */
+
+  .shows {
+    padding-top: 55px;
+    padding-bottom: 189px;
+  }
+
+  .shows__heading {
+    margin-bottom: 16px;
+  }
+
+  .shows__list {
+    margin-bottom: 30px;
+  }
+
+  .shows__item-content {
+    min-height: 149px;
+  }
+
+  .shows__down-content {
+    padding: 9px 4px 11px 9px;
+    max-width: 113px;
+  }
+
+  .shows__title {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .shows__time {
+    padding-right: 5px;
+    font-size: 9px;
+  }
+
+  .shows__more {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .shows__item-svg {
+    transform: translateX(-1px) translateY(1px);
+  }
+
+  .shows__archive {
+    top: 105.5%;
+    left: -9%;
+    background-size: 77px 102px;
+  }
+
+  .shows__archive-link {
+    order: 1;
+    margin-bottom: 0;
+    padding: 7px 29px;
+    max-width: 110px;
+  }
+
+  .shows__archive-par {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+
+  /* Секция гости */
+
+  .guests {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+
+  .guests__phr-bold {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+
+  .guests__par-top {
+    margin-bottom: 28px;
+    font-size: 14px;
+  }
+
+  .guests__list {
+    gap: 30px;
+  }
+
+  .guests__item {
+    gap: 12px;
+  }
+
+  .guests__img {
+    height: 159px;
+  }
+
+  .guests__link {
+    padding: 7px 13px;
+  }
+
+  /* Секция плейлисты  */
+
+  .playlist {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+
+  .playlist__left-block {
+    margin-bottom: 25px;
+  }
+
+  .playlist__heading {
+    margin-bottom: 11px;
+  }
+
+  .playlist__par {
+    font-size: 12px;
+    line-height: 133.33%;
+  }
+
+  .playlist__copy {
+    margin-bottom: 13px;
+    font-size: 12px;
+  }
+
+  .playlist__item-content {
+    min-height: 159px;
+  }
+
+  .playlist__down-content {
+    padding: 4px 5px 6px 9px;
+  }
+
+  .playlist__band-name {
+    font-size: 12px;
+  }
+
+  .playlist__band-descr {
+    padding: 0;
+    font-size: 9px;
+  }
+
+  /* Секция реклама */
+
+  .product {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .product__left-side {
+    margin-bottom: 33px;
+  }
+
+  .product__img-good {
+    width: 256px;
+    height: 225px;
+  }
+
+  .product__img-znak {
+    width: 62px;
+    height: 62px;
+  }
+
+  .product__par-slogan {
+    margin-bottom: 6px;
+    font-size: 24px;
+  }
+
+  .product__par-slogan::after {
+    margin-top: 10px;
+  }
+
+  .product__par {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .product__price {
+    margin-bottom: 19px;
+    font-size: 24px;
+  }
+
+  .product__par:last-of-type {
+    margin-bottom: 9px;
+  }
+
+  .product__link {
+    padding: 12px 14px;
+    width: 256px;
+    font-size: 16px;
+  }
+
+  /* Секция О нас */
+
+  .about-us {
+    padding-top: 55px;
+    padding-bottom: 54px;
+  }
+
+  .about-us__top-block {
+    margin-bottom: 30px;
+  }
+
+  .about-us__par {
+    font-size: 14px;
+  }
+
+  .about-us__par-bold {
+    margin-bottom: 4px;
+    padding-right: 11px;
+  }
+
+  .about-us__par-top {
+    line-height: 157%;
+  }
+
+  .about-us__img-photo {
+    margin-bottom: 13px;
+    width: 113px;
+    height: 113px;
+  }
+
+  .about-us__name {
+    margin-bottom: 4px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about-us__par-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .form-field-style {
+    font-size: 16px;
+  }
+
+  .form__textarea {
+    padding: 16px 23px;
+    border-radius: 20px;
+  }
+
+  .form__name,
+  .form__mail {
+    padding: 10px 23px;
+    height: 50px;
+  }
+
+  .form__name-error,
+  .form__mail-error {
+    font-size: 10px;
+  }
+
+  .form__name-error {
+    top: 188px;
+    left: 24px;
+  }
+
+  .form__mail-error {
+    top: 268px;
+    left: 24px;
+  }
+
+  .form__btn {
+    margin-bottom: 20px;
+    padding: 15px 43px;
+  }
+
+  .form__label {
+    align-items: center;
+    font-size: 9px;
+  }
+
+  .form__label::before {
+    height: 11px;
+  }
+
+  /* Секция футер */
+
+  .footer {
+    padding-top: 53px;
+    background: url('../img/footer_svg-wave.svg') no-repeat 50% 93%, linear-gradient(#292E39 40.5%, #121723 40.5% 88.5%, #292E39 88.5%);
+  }
+
+  .footer__left {
+    margin-bottom: 51px;
+  }
+
+  .footer__right {
+    margin-bottom: 54px;
+    padding: 29px 0 0 29px;
+  }
+
+  .footer__list {
+    gap: 2px;
+    columns: 2;
+    width: 286px;
+    font-size: 12px;
+  }
+
+  .footer__item {
+    margin-bottom: 24px;
+  }
+
+  .footer__copy {
+    font-size: 12px;
+  }
+}
